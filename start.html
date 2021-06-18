@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Soru</title>
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="welcome_text">
+            <p style="color: white">Kurallar:</p>
+            <P style="color: white">Süre bitmeden soruları cevaplayın.
+            <br>Süre bittiğinde uyarı kutucuğu çıkacak TAMAM butonuna tıkladığınızda oyun yeniden başlayacak.</P>
+            <form class="welcome_form" name="welcome_form" onsubmit="submitForm(event)">
+                <input type="text" name="name">
+                <button>Başla</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- site.js -->
+    <script src="js/start.js"></script>
+</body>
+</html>
